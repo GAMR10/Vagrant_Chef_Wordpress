@@ -1,4 +1,4 @@
-# Verificar si estamos en un sistema Ubuntu
+# Verificar si estamos en un sistema Ubuntu .
 if os.family == 'debian'
     describe package('apache2') do
       it { should be_installed }
