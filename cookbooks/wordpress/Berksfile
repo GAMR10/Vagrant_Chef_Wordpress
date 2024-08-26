@@ -1,0 +1,3 @@
+source 'https://supermarket.chef.io'
+
+cookbook 'wordpress', path: '.' # Cambia esto según la ubicación de tu cookbook
